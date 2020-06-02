@@ -4,11 +4,11 @@
 <a href="https://www.gnu.org/licenses/gpl-3.0" alt="License: GPLv3"><img src="https://img.shields.io/github/license/Force67/UTL"</a>
 <a href="https://discord.gg/WqWjujt" alt="License: GPLv3"><img src="https://img.shields.io/discord/251824915437584395?color=%09%237289da"></a>
 </p>
-<strong>U</strong>niversal <strong>U</strong>tility <strong>L</strong>ibrary is a small project, which is used as a base dependency in projects such as PS4Delta, and FormatX. It provides a few core features for platform abstraction and convenience, aswell as helpers for making my life easier.
+<strong>U</strong>niversal <strong>U</strong>tility <strong>L</strong>ibrary is a small project, which is used as a base dependency in projects such as PS4Delta, and FormatX. It provides a few core features for platform abstraction and convenience, as well as helpers for making my life easier.
 <hr>
 
-This library required C++17 support.
-Where possible, C++11/14 STL should be used instead of adding any code in here, and the code should be kept as small as possible (by reusing STL/etc). Third party dependencies should be kept to a minimum. 
+This library requires C++17 support.
+Where possible, C++14/17 STL should be used instead of adding any code in here, and the code should be kept as small as possible (by reusing STL/etc). Third party dependencies should be kept to a minimum. 
 - *Note that this library does not support linux yet*
 
 Supported/Tested compilers:
