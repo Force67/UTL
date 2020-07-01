@@ -8,7 +8,7 @@
 #if defined(__clang__) || defined(__GNUC__)
 #define NAKED __attribute__((naked))
 #define PACKED __attribute__((packed))
-#define PS4ABI __attribute__((sysv_abi)) //, cdecl))
+#define PS4ABI __attribute__((sysv_abi))
 #define NORETURN __attribute__((noreturn))
 #define F_INLINE __attribute__((inline_always))
 
@@ -56,13 +56,5 @@
 #define UTL_IMPORT
 #define UTL_PATH_SEP "/"
 #endif
-
-#define POW2_MASK (align - static_cast<T>(1))
-#define UTL_PLAT_ALIGN alignas(sizeof(uintptr_t))
-
-template <typename T>
-inline T align_up(const T addr, const T align) {
-    return (addr + POW2_MASK) & ~POW2_MASK;
-}
 
 #define BUGCHECK dbg_break
